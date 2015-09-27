@@ -1,4 +1,4 @@
-# Systematic descriptions counter version 4.0
+# Systematic Descriptions Counter version 4.0
 
 The systematic descriptions counter is a python script for dedicated for the counting of descriptions in biographies. This version is built for the annotation tast "SystematicDescriptions". This annotation task is defined in the Celc Annotation Tool web application. This last is only accesible with admin rights. 
 
