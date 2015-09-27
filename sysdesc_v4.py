@@ -15,23 +15,23 @@ import itertools
 from os import listdir
 
 #predefined descriptions
-#creates variables of every possible combination    #polarity 	act or prop 	stated by 	applies to 
-pos_act_1 = "positive action author subject"		#positive 	action 			author 		subject  				
-pos_act_2 = "positive action author other"			#positive 	action 			author 		other	
-pos_dscr_act_1 = "positive action extern subject" 	#positive 	action 			extern 		subject	
-pos_dscr_act_2 = "positive action extern other"		#positive 	action 			extern 		other	
-pos_char_1 = "positive property author subject"		#positive 	property 		author 		subject
-pos_char_2 = "positive property author other"		#positive 	property 		author 		other
-pos_indrct_1 = "positive property extern subject"	#positive 	property 		extern 		subject
-pos_indrct_2 = "positiv property extern other"		#positive 	property 		extern 		other
-neg_act_1 = "negative action author subject"		#negative 	action 			author 		subject
-neg_act_2 = "negative action author other"			#negative 	action 			author 		other
-neg_dscr_act_1 = "negative action extern subject"	#negative 	action 			extern 		subject
-neg_dscr_act_2 = "negative action extern other"		#negative 	action 			extern 		other
-neg_char_1 = "negative property author subject"		#negative 	property 		author 		subject
-neg_char_2 = "negative property author other"		#negative 	property 		author 		other
-neg_indrct_1 = "negative property extern subject"	#negative 	property 		extern 		subject
-neg_indrct_2 = " negative property extern other"	#negative 	property 		extern 		other
+#creates variables of every possible combination    	#polarity 	act or pro	stated by 	applies to 
+pos_act_1 = "positive action author subject"		#positive 	action 		author 		subject  				
+pos_act_2 = "positive action author other"		#positive 	action 		author 		other	
+pos_dscr_act_1 = "positive action extern subject" 	#positive 	action 		extern 		subject	
+pos_dscr_act_2 = "positive action extern other"		#positive 	action 		extern 		other	
+pos_char_1 = "positive property author subject"		#positive 	property 	author 		subject
+pos_char_2 = "positive property author other"		#positive 	property 	author 		other
+pos_indrct_1 = "positive property extern subject"	#positive 	property 	extern 		subject
+pos_indrct_2 = "positiv property extern other"		#positive 	property 	extern 		other
+neg_act_1 = "negative action author subject"		#negative 	action 		author 		subject
+neg_act_2 = "negative action author other"		#negative 	action 		author 		other
+neg_dscr_act_1 = "negative action extern subject"	#negative 	action 		extern 		subject
+neg_dscr_act_2 = "negative action extern other"		#negative 	action 		extern 		other
+neg_char_1 = "negative property author subject"		#negative 	property 	author 		subject
+neg_char_2 = "negative property author other"		#negative 	property 	author 		other
+neg_indrct_1 = "negative property extern subject"	#negative 	property 	extern 		subject
+neg_indrct_2 = " negative property extern other"	#negative 	property 	extern 		other
 
 #initiate countvariables
 act_pos = 0 
